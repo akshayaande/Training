@@ -1,0 +1,14 @@
+def fetch_weather(lat,lon):
+    "daily":[
+        "temperature_2m_max",
+        "temperature_2m_min",
+        "precipitation_sum",
+        "uv_index_max",
+        "weather_code",
+    ],
+    "hourly":[
+        "temperature_2m",
+        "precipitation_probability",
+    ],
+    cur = data["current"]
+    daily =
